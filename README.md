@@ -24,7 +24,6 @@ The application ensures data integrity with mandatory fields and validation chec
   <h2>User Interface</h2>
     <ul>
         <li><strong>Tabular Display</strong>: You can view all your contacts in a tabular format.</li>
-        <li><strong>Detail View</strong>: Clicking on a contact in the table opens a detail form with more information about that contact.</li>
         <li><strong>Add and Edit Contacts</strong>: The application provides forms to insert new contacts and modify existing ones.</li>
     </ul>
 
