@@ -107,7 +107,7 @@ const CreateContact = () => {
         <Col md={6}>
             <Form.Group controlId="telephoneNumber" className='mb-3'>
                 <Form.Label>Telephone Number</Form.Label>
-                <Form.Control type="tel" placeholder="Enter telephone number" className='fieldz' onChange={handleChange} />
+                <Form.Control type="number" placeholder="Enter telephone number" className='fieldz' onChange={handleChange} />
             </Form.Group>
         </Col>
         <Col md={6}>
