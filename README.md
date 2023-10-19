@@ -1,103 +1,87 @@
-<h1>Contact Directory Web Application</h1>
-<p>This is a simple web application designed for managing a contact directory. 
-It allows you to organize and store information about your contacts, including their first name, surname, gender, date of birth, telephone number, email, and city. 
-The application ensures data integrity with mandatory fields and validation checks, and it stores the data in an SQL database for easy access and management. Additionally, you can view, edit, and add new contacts with ease.</p>
+<h1>Applicazione Web di Gestione dei Contatti</h1>
+<p>Si tratta di una semplice applicazione web progettata per la gestione di un elenco di contatti. 
+Consente di organizzare e memorizzare informazioni sui tuoi contatti, tra cui il loro nome, cognome, genere, data di nascita, numero di telefono, email e città. 
+L'applicazione garantisce l'integrità dei dati con campi obbligatori e controlli di convalida e memorizza i dati in un database SQL per un facile accesso e gestione. Inoltre, puoi visualizzare, modificare e aggiungere nuovi contatti con facilità.</p>
 
-<h2>Features</h2>
+<h2>Caratteristiche</h2>
     <ul>
-        <li><strong>First Name</strong>: A field for entering the contact's first name.</li>
-        <li><strong>Surname</strong>: A field for entering the contact's surname.</li>
-        <li><strong>Gender</strong>: A drop-down box with options "Male" and "Female" for selecting the contact's gender.</li>
-        <li><strong>Date of Birth</strong>: A field for entering the contact's date of birth.</li>
-        <li><strong>Telephone Number</strong>: A field for entering the contact's telephone number.</li>
-        <li><strong>Email</strong>: A field for entering the contact's email address.</li>
-        <li><strong>City</strong>: A drop-down box with a list of cities, which is pre-populated from an external source.</li>
+        <li><strong>Nome</strong>: Un campo per inserire il nome del contatto.</li>
+        <li><strong>Cognome</strong>: Un campo per inserire il cognome del contatto.</li>
+        <li><strong>Genere</strong>: Una casella a discesa con le opzioni "Maschio" e "Femmina" per selezionare il genere del contatto.</li>
+        <li><strong>Data di Nascita</strong>: Un campo per inserire la data di nascita del contatto.</li>
+        <li><strong>Numero di Telefono</strong>: Un campo per inserire il numero di telefono del contatto.</li>
+        <li><strong>Email</strong>: Un campo per inserire l'indirizzo email del contatto.</li>
+        <li><strong>Città</strong>: Una casella a discesa con un elenco di città, prepopulate da una fonte esterna.</li>
     </ul>
 
-  <h2>Validation and Requirements</h2>
+<h2>Convalida e Requisiti</h2>
     <ul>
-        <li><strong>Mandatory Fields</strong>: First Name, Surname, Gender, and Email fields are mandatory.</li>
-        <li><strong>Email Validation</strong>: The Email field enforces validation to ensure a valid email address format.</li>
-        <li><strong>Phone Number Validation</strong>: The Phone Number field enforces validation to ensure a valid phone number format.</li>
+        <li><strong>Campi Obbligatori</strong>: Nome, Cognome, Genere ed Email sono campi obbligatori.</li>
+        <li><strong>Convalida Email</strong>: Il campo Email impone una convalida per assicurare un formato di indirizzo email valido.</li>
+        <li><strong>Convalida Numero di Telefono</strong>: Il campo Numero di Telefono impone una convalida per assicurare un formato di numero di telefono valido.</li>
     </ul>
 
-  <h2>User Interface</h2>
+<h2>Interfaccia Utente</h2>
     <ul>
-        <li><strong>Tabular Display</strong>: You can view all your contacts in a tabular format.</li>
-        <li><strong>Add and Edit Contacts</strong>: The application provides forms to insert new contacts and modify existing ones.</li>
+        <li><strong>Visualizzazione Tabellare</strong>: Puoi visualizzare tutti i tuoi contatti in un formato tabellare.</li>
+        <li><strong>Aggiunta e Modifica Contatti</strong>: L'applicazione fornisce moduli per inserire nuovi contatti e modificare quelli esistenti.</li>
     </ul>
 
-  <h2>Technologies Used</h2>
-    <p>This web application is built using modern web technologies, making it responsive and accessible on various devices. The stack may include:</p>
+<h2>Tecnologie Utilizzate</h2>
+    <p>Questa applicazione web è costruita utilizzando tecnologie web moderne, rendendola reattiva e accessibile su vari dispositivi. La pila tecnologica può includere:</p>
     <ul>
-        <li><strong>Frontend</strong>: HTML, CSS, JavaScript, and a frontend framework/library React for a responsive user interface.</li>
-        <li><strong>Backend</strong>: A server-side technology like Node.js and Express(both JS frameworks).</li>
-        <li><strong>Database</strong>: A SQL database system (PostgreSQL) for data storage.</li>
-        <li><strong>Validation</strong>: Frontend and backend validation for mandatory fields and data integrity.</li>
-        <li><strong>External Data Source</strong>: An external source for pre-populating the city drop-down box.</li>
+        <li><strong>Frontend</strong>: HTML, CSS, JavaScript e un framework/libreria frontend come React per un'interfaccia utente reattiva.</li>
+        <li><strong>Backend</strong>: Una tecnologia lato server come Node.js e Express (entrambi framework JavaScript).</li>
+        <li><strong>Database</strong>: Un sistema di database SQL (PostgreSQL) per la memorizzazione dei dati.</li>
+        <li><strong>Convalida</strong>: Convalida lato frontend e lato backend per campi obbligatori e integrità dei dati.</li>
+        <li><strong>Fonte Dati Esterna</strong>: Una fonte esterna per la precompilazione della casella a discesa delle città.</li>
     </ul>
 
-  <h2>Prerequisites</h2>
-<p>Before you can run this web application, ensure that you have the following software and dependencies installed on your local machine:</p>
+<h2>Prerequisiti</h2>
+<p>Prima di poter eseguire questa applicazione web, assicurati di avere il software e le dipendenze seguenti installati sul tuo computer locale:</p>
 
 <ul>
-  <li><a href="https://nodejs.org/" target="_blank">Node.js</a>: This application requires Node.js to run the backend server and frontend development server. You can download and install Node.js from the official website.</li>
-  <li><a href="https://www.npmjs.com/" target="_blank">npm</a> (Node Package Manager): npm is included with Node.js and is used to manage project dependencies. Make sure you have npm installed as well.</li>
+  <li><a href="https://nodejs.org/" target="_blank">Node.js</a>: Questa applicazione richiede Node.js per eseguire il server backend e il server di sviluppo frontend. Puoi scaricare e installare Node.js dal sito ufficiale.</li>
+  <li><a href="https://www.npmjs.com/" target="_blank">npm</a> (Node Package Manager): npm è incluso in Node.js ed è utilizzato per gestire le dipendenze del progetto. Assicurati di avere npm installato.</li>
 </ul>
 
-<p>Verify that you have the necessary versions installed by running the following commands in your terminal:</p>
-<code>node --version</code>
-<br><code>npm --version</code>
+<p>Verifica di avere le versioni necessarie installate eseguendo i seguenti comandi nel tuo terminale:</p>
+<pre><code>node --version</code></pre>
+<pre><code>npm --version</code></pre>
 
 <!-- Clone the Repository -->
-<h2>Clone the Repository</h2>
-<p>To get started, clone this repository to your local environment using Git. Open your terminal and execute the following command:</p>
-<pre>
-<code>git clone &lt;repository-url&gt;</code>
-</pre>
-<p>Replace <code>&lt;repository-url&gt;</code> with the URL of this repository. You can find the URL by clicking the "Clone" or "Code" button on this page.</p>
-<p>Once the repository is cloned, you can proceed to set up the backend and frontend components of the web application.</p>
+<h2>Clona il Repository</h2>
+<p>Per iniziare, clona questo repository sul tuo ambiente locale usando Git. Apri il tuo terminale ed esegui il seguente comando:</p>
+<pre><code>git clone &lt;repository-url&gt;</code></pre>
+<p>Sostituisci <code>&lt;repository-url&gt;</code> con l'URL di questo repository. Puoi trovare l'URL facendo clic sul pulsante "Clona" o "Code" in questa pagina.</p>
+<p>Una volta clonato il repository, puoi procedere con la configurazione dei componenti backend e frontend dell'applicazione web.</p>
 
 <!-- Setting Up the Backend and Frontend -->
-<h2>Setting Up the Backend and Frontend</h2>
-<p>After cloning the repository, you'll need to set up both the backend and frontend components of the web application. Follow the steps below:</p>
+<h2>Configura il Backend e il Frontend</h2>
+<p>Dopo aver clonato il repository, dovrai configurare sia i componenti backend che frontend dell'applicazione web. Segui i passaggi seguenti:</p>
 
 <!-- Backend Setup -->
-<h3>Backend Setup</h3>
+<h3>Configurazione del Backend</h3>
 <ol>
-  <li>Open your terminal and navigate to the <code>./backend/</code> directory within the cloned repository using the <code>cd</code> command:</li>
-  <pre>
-  <code>cd ./backend/</code>
-  </pre>
-  <li>Install the required Node.js packages by running:</li>
-  <pre>
-  <code>npm install</code>
-  </pre>
-  <li>Configure the backend server. You may need to set environment variables for database connection details, API keys, or other necessary configurations. Refer to the provided documentation for configuration options.</li>
-  <li>Start the backend server by running:</li>
-  <pre>
-  <code>npm start</code>
-  </pre>
+  <li>Apri il tuo terminale e naviga nella directory <code>./backend/</code> all'interno del repository clonato usando il comando <code>cd</code>:</li>
+  <pre><code>cd ./backend/</code></pre>
+  <li>Installa i pacchetti Node.js necessari eseguendo:</li>
+  <pre><code>npm install</code></pre>
+  <li>Configura il server backend. Potresti dover impostare le variabili d'ambiente per i dettagli della connessione al database, le chiavi API o altre configurazioni necessarie. Fai riferimento alla documentazione fornita per le opzioni di configurazione.</li>
+  <li>Avvia il server backend eseguendo:</li>
+  <pre><code>npm start</code></pre>
 </ol>
 
 <!-- Frontend Setup -->
-<h3>Frontend Setup</h3>
+<h3>Configurazione del Frontend</h3>
 <ol>
-  <li>Open a new terminal window and navigate to the <code>./frontend/</code> directory within the cloned repository:</li>
-  <pre>
-  <code>cd ./frontend/</code>
-  </pre>
-  <li>Install the required frontend packages by running:</li>
-  <pre>
-  <code>npm install</code>
-  </pre>
-  <li>Configure the frontend application, which may involve specifying API endpoints or other settings. Refer to the provided documentation for configuration options.</li>
-  <li>Launch the frontend development server with:</li>
-  <pre>
-  <code>npm start</code>
-  </pre>
+  <li>Apri una nuova finestra del terminale e naviga nella directory <code>./frontend/</code> all'interno del repository clonato:</li>
+  <pre><code>cd ./frontend/</code></pre>
+  <li>Installa i pacchetti frontend necessari eseguendo:</li>
+  <pre><code>npm install</code></pre>
+  <li>Configura l'applicazione frontend, che potrebbe comportare la specifica degli endpoint API o altre impostazioni. Fai riferimento alla documentazione fornita per le opzioni di configurazione.</li>
+  <li>Avvia il server di sviluppo frontend con:</li>
+  <pre><code>npm start</code></pre>
 </ol>
 
-<p>With both the backend and frontend components set up, you can access the web application in your web browser and begin using it to manage your contacts.</p>
-
-  
+<p>Con entrambi i componenti backend e frontend configurati, puoi accedere all'applicazione web nel tuo browser e iniziare a usarla per gestire i tuoi contatti.</p>
