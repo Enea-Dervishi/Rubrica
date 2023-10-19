@@ -37,18 +37,18 @@ The application ensures data integrity with mandatory fields and validation chec
         <li><strong>External Data Source</strong>: An external source for pre-populating the city drop-down box.</li>
     </ul>
 
-  <h2>Installation and Setup</h2>
-    <p>To use this application, follow these steps:</p>
-    <ol>
-        <li>Clone this repository to your local environment.</li>
-        <li>Set up your backend server and configure the SQL database.</li>
-        <li>Run <i>npm start</i> in ./backend/ to start up the server and create the table on the database.</li>
-        <li>Run <i>npm start</i> on ./frontend/ to launch the web app.</li>
-    </ol>
+  <h2>Prerequisites</h2>
+<p>Before you can run this web application, ensure that you have the following software and dependencies installed on your local machine:</p>
 
-  <h2>Getting Started</h2>
-    <ol>
-        <li>Open the application in your web browser.</li>
-        <li>Use the forms to add new contacts or edit existing ones.</li>
-        <li>View and manage your contacts in tabular format.</li>
-    </ol>
+<ul>
+  <li><a href="https://nodejs.org/" target="_blank">Node.js</a>: This application requires Node.js to run the backend server and frontend development server. You can download and install Node.js from the official website.</li>
+  <li><a href="https://www.npmjs.com/" target="_blank">npm</a> (Node Package Manager): npm is included with Node.js and is used to manage project dependencies. Make sure you have npm installed as well.</li>
+</ul>
+
+<p>Verify that you have the necessary versions installed by running the following commands in your terminal:</p>
+
+```bash
+node --version
+npm --version
+
+  
