@@ -1,3 +1,4 @@
+//Creazione connessione pool con un postgreSQL db
 const { Pool } = require('pg');
 
 const pool = new Pool({

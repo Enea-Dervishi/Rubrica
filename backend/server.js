@@ -1,3 +1,4 @@
+//Creazione server
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Pool } = require('pg');
@@ -7,6 +8,7 @@ const cors = require('cors');
 const app = express();
 const port = 8080;
 
+//Cross Origin Resource Sharing (accetta richieste da altri domain)
 app.use(cors());
 
 const pool = new Pool({
@@ -17,13 +19,13 @@ const pool = new Pool({
   port: 5432,
 });
 
-// Error handling middleware
+// Error handling middleware request-response cycle
 const handleErrors = (err, req, res, next) => {
     console.error('An error occurred:', err);
     res.status(500).send('Internal Server Error');
 };
 
-// Create table from schema
+// Creazione tabella da Schema.sql
 const schema = fs.readFileSync('./Model/Schema.sql').toString();
 pool.query(schema)
     .then(() => {
@@ -35,7 +37,7 @@ pool.query(schema)
 
 app.use(bodyParser.json());
 
-// API endpoint to add a contact
+// API endpoints for performing CRUD operations on the contacs table
 app.post('/addContact', async (req, res, next) => {
     try {
         const {

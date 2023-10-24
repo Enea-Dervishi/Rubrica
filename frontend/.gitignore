@@ -1,4 +1,42 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Server-Side (Node.js/Express)
+# Ignore node_modules
+node_modules/
 
-# dependencies
-node_modules
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Client-Side (React)
+# Ignore node_modules
+node_modules/
+
+# Ignore built and compiled files (build or dist directories)
+build/
+dist/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore package-lock files (if using npm)
+package-lock.json
+
+# Ignore Yarn lock file (if using Yarn)
+yarn.lock
+
+# Ignore user-specific settings (for editors like VSCode or WebStorm)
+.vscode/

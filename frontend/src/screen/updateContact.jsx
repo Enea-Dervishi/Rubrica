@@ -1,5 +1,4 @@
 
-
 import React, { useState, useEffect } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
@@ -17,8 +16,8 @@ const UpdateContact = () => {
     email: "",
     city: "London",
   });
-
-  useEffect(() => {
+  
+  useEffect(() => { //load existing contact data based on the ID extracted from the URL
 
     const fetchContact = async () => {
         try {

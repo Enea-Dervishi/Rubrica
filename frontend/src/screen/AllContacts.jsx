@@ -40,6 +40,7 @@ const AllContacts = () => {
     navigate(`/updatecontact/${id}`);
   };
 
+  //Stile delle icone usate nella tabella
   const iconStyle = {
     width: "15px",
     height: "15px",

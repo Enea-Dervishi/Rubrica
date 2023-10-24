@@ -15,7 +15,7 @@ const CreateContact = () => {
         email: "",
         city: "London"
     });
-
+    
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -67,7 +67,7 @@ const CreateContact = () => {
   return (
     <Container>
       <Row className="my-2 text-center">
-        <h2><u>Add A new Contact Detail</u></h2>
+        <h2><u>Add a new Contact Detail</u></h2>
       </Row>
       <Form className='fome' onSubmit={handleSubmit}>
     <Row>
